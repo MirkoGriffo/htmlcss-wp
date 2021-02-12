@@ -73,7 +73,6 @@ header {
 }
 
 .second-section {
-  background-color: #4d4dff;
   width: auto;
   height: 800px;
   margin-top: 30px;
@@ -82,31 +81,53 @@ header {
 .riga {
   width: auto;
   height: 12%;
-  background-color: #80bfff;
 }
 
 .col1 {
   width: 20%;
-  background-color: #80bfff;
   height: 83%;
   margin-top: 20px;
   float: left;
 }
+
+.col1 img {
+  width: 100%;
+  height: 240px;
+  border-radius: 15px;
+}
+
 .col2 {
   width: 58%;
-  background-color: #80bfff;
   height: 83%;
   margin-top: 20px;
   margin-left: 1%;
   display: inline-block;
 }
 
+.col2 div {
+  width: 755px;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.col2 div img {
+  width: 100%;
+  position: relative;
+  bottom: 120px;
+}
+
 .col3 {
   width: 20%;
-  background-color: #80bfff;
   height: 83%;
   margin-top: 20px;
   float: right;
+}
+
+.col3 img {
+  width: 100%;
+  height: 240px;
+  border-radius: 15px;
 }
 
 /* Footer */
