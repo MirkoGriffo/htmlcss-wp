@@ -131,9 +131,14 @@ header {
 }
 
 /* Footer */
+
 footer {
   width: auto;
   height: 70px;
-  background-color: #9605c7;
   margin-top: 20px;
+  text-align: center;
+}
+
+footer span {
+  color: red;
 }
